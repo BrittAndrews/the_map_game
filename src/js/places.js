@@ -1,33 +1,38 @@
-// import $ from 'jquery';
+import $ from 'jquery';
 
 
 
-// var places =[
+export var places =[
 
-// {
-// 	label = Atlanta,
+{
+	label: 'San Fransico',
+	coordinates: [-122.420679, 37.772537]
+},
 
-// }
+{
+	label: 'Paris',
+	coordinates: [48.864716, 2.349014]
+},
 
-// {
-// 	label = Paris,
+{
+	label: 'Mumbai',
+	coordinates: []
+},
 
-// }
+{
+	label: 'Shanghai',
+	coordinates: [31.267401, 121.522179]
+},
 
-// {
-// 	label = Mumbai,
+{
+	label: 'Tokyo',
+	coordinates: [35.685360, 139.753372]
+},
 
-// }
-
-// {
-// 	label = Tokyo,
-
-// }
-
-// {
-// 	label = Los Angeles,
-
-// }
+{
+	label: 'New York',
+	coordinates: [40.730610, -73.935242]
+}
 
 
-// ]
+]

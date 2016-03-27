@@ -22,29 +22,38 @@
 <body>
 
   <div class="app">
+	
+
 	<div id='map'></div>
   	
+	
 	<div class="plane-container">
-		<img width="80" class="plane" src="http://icons.iconseeker.com/png/fullsize/elements-alone/plane-1.png">
+		<!-- <img width="80" class="plane" src="http://icons.iconseeker.com/png/fullsize/elements-alone/plane-1.png"			  -->
 	</div>
 
-	<div class="question-container">
-		<!-- <img width="200" width="100" class="plane" src="http://icons.iconseeker.com/png/fullsize/elements-alone/plane-1.png"> -->
-	</div>
 
+    <div id="quizContainer"> </div>
+
+
+
+
+
+	
   </div>
 
 
 
-<script>
+// <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnJpdHRhbnlhbmRyZXdzIiwiYSI6ImNpbTZsMm0weTAyaG51Mm00aGdpYm4xOTIifQ.qhTRY7ANO3U012XH56GNkA';
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
-    center: [40.730610, 15], // starting position
+    center: [-122.420679, 37.772537], // starting position
     zoom: 6 // starting zoom
 });
 </script>
+
+
   <script src="js/bundle.js"></script>
 </body>
 </html>

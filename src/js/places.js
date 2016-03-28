@@ -7,7 +7,7 @@ export default [
 {
 	label: 'San Fransico',
 	// coordinates: [-122.420679, 37.772537],
-	message: "The first bubonic plague epidemic in the continental US broke out in SF’s Chinatown in 1900.",
+	message: "The first bubonic <br>plague epidemic in the continental US broke out in SF’s Chinatown in 1900.",
 	correctAnswer: true
 },
 
@@ -28,7 +28,7 @@ export default [
 {
 	label: 'Shanghai',
 	// coordinates: [31.267401, 121.522179],
-	message: "Shanghai is pretty cool",
+	message: "Shanghai means 'on top of the sea'",
 	correctAnswer: false
 
 },
@@ -43,7 +43,7 @@ export default [
 {
 	label: 'New York',
 	// coordinates: [40.730610, -73.935242],
-	message: "New York City is pretty cool",
+	message: "New York’s Central Park is larger than the principality of Monaco.",
 	correctAnswer: false
 },
 

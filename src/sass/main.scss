@@ -1,6 +1,7 @@
 /* CSS Entry Point */
 .app { 
 
+
 	
 }
 
@@ -21,14 +22,52 @@
 	// position: absolute;
 }
 
+.mumbai{
+
+}
+
+.shanghai{
+
+}
+
+.tokyo{
+
+}
+
+.newyork{
+
+}
+
+.capetown{
+
+}
+
+
 .question-box-wrapper{
-	height: 200px;
+	height:200%;
 	width: 200px;
-	border: 1px solid red;
 	position: absolute;
+	background:white;
+	font-family: sans-serif;
 }
 
 .img-wrapper {
 	position: absolute;
+}
+
+
+
+
+.congrats {
+
+
+	width:100%;
+	height:100%;
+	text-align:center;
+	padding-top: 300px;
+	font-family:sans-serif;
+	color: pink;
+	font-size: 60px;
+
 }
 

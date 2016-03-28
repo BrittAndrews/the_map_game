@@ -13,7 +13,6 @@ export default class Place {
 			<div class="question">
 				${message}
 			</div>
-			<input type=text> </input>
 		</div>
 		
 		`;
